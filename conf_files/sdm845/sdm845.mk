@@ -1,4 +1,4 @@
-CONFIG_PATH := hardware/qcom/media/conf_files/sdm845
+CONFIG_PATH := $(call project-path-for,qcom-media)/conf_files/sdm845
 
 # Video feature flags
 
